@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Components</string>
+    <string name="qr_code_scan">Scan QR Code</string>
+    <string name="in_app_update">InAppUpdate</string>
+    <string name="custom_alert_dialog">Custom Alert Dialog</string>
+    <string name="check_update">Checking For Update</string>
+</resources>

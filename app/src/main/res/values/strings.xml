@@ -4,4 +4,11 @@
     <string name="in_app_update">InAppUpdate</string>
     <string name="custom_alert_dialog">Custom Alert Dialog</string>
     <string name="check_update">Checking For Update</string>
+    <string name="sure_delete">Are you sure you want to delete account?</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+
+    <string name="sure_leave">Do you want to exit this app?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
 </resources>

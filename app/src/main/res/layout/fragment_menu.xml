@@ -38,6 +38,20 @@
         android:layout_marginHorizontal="@dimen/dp_16"
         android:background="@drawable/bg_tv"/>
 
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_in_app_update"
+        android:id="@+id/tv_custom_alert_dialog"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_18"
+        android:text="@string/custom_alert_dialog"
+        android:layout_marginTop="@dimen/dp_10"
+        android:paddingVertical="@dimen/dp_6"
+        android:layout_marginHorizontal="@dimen/dp_16"
+        android:background="@drawable/bg_tv"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

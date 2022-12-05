@@ -19,6 +19,13 @@
         android:theme="@style/Theme.Components"
         tools:targetApi="31">
         <activity
+            android:name=".customAlertDialog.CustomViewDialogActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".inAppUpdate.InAppUpdateActivity"
             android:exported="false">
             <meta-data

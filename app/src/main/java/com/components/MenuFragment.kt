@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
+import com.components.customAlertDialog.CustomViewDialogActivity
 import com.components.databinding.FragmentMenuBinding
 import com.components.inAppUpdate.InAppUpdateActivity
 
@@ -31,6 +32,11 @@ class MenuFragment : Fragment() {
 
         binding.tvInAppUpdate.setOnClickListener {
             val intent = Intent(requireContext(),InAppUpdateActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.tvCustomAlertDialog.setOnClickListener {
+            val intent = Intent(requireContext(),CustomViewDialogActivity::class.java)
             startActivity(intent)
         }
 
